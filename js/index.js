@@ -1,8 +1,10 @@
-import { noFill, fill, noStroke, stroke, rect, image, width, height } from './canvasFunctions.js'
-import Tower from './towers/Tower.js'
+import {
+    noFill, fill, noStroke, stroke, rect, image, width, height, font, text
+} from './canvasFunctions.js'
 import WaterCaster from './towers/WaterCaster.js'
 
 let tower = new WaterCaster()
-console.log(tower)
-tower.buyUpgrade({ path: 0, number: 0 })
-console.log(tower)
+
+fill(0, 0, 0, 1)
+font('20px Arial')
+text(tower.name, 40, 65)

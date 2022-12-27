@@ -46,6 +46,14 @@ const image = (src, x, y, w = null, h = null) => {
     img.src = src
 }
 
+const font = fontInfo => {
+    ctx.font = fontInfo
+}
+
+const text = (text, x, y) => {
+    ctx.fillText(text, x, y)
+}
+
 const width = canvas.width
 const height = canvas.height
 
@@ -56,6 +64,8 @@ export  {
     noStroke,
     rect,
     image,
+    font,
+    text,
     width,
     height
 }

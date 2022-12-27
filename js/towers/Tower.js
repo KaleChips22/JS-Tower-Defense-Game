@@ -4,9 +4,9 @@ export default class Tower {
         this.upgrades = [[], []]
         this.description = ''
         this.range = 0
-        this.projectile = null
-        this.projectileCount
+        this.projectiles = null
         this.placeOn = ['LAND']
+        this.rangeEffect = null
     }
 
     /**
