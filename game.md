@@ -17,7 +17,7 @@ Uses nearby water to cast powerful water blasts at enemies
 
 *Must be placed near or in water*
 
-Cost: $xx
+Cost: **$150**
 
 #### Upgrades
 Path 1:
@@ -46,16 +46,30 @@ Path 2:
 
 
 ### Fire Wizard
+#### Description and Other Details
+
+Uses magic to create powerful fireblast that melt all enemies
+
+Cost: **$150**
+
 #### Upgrades
 Path 1:
 
-1. 
-2. 
-3. 
+1. Hotter Flames
+    * Flames are more powerful
+    * $xx
+2. Overheat
+    * Attacks are so powerful, enemies catch on fire
+    * $xx
+3. Hellfire
+    * Fire attacks grow in size, speed, and dammage; +1 range
+    * $xx
 
 Path 2:
 
-1. 
+1. Exploding flames
+    * Now shoots freballs that explode on impact
+    * $xx
 2. 
 3. 
 
