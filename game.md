@@ -105,16 +105,20 @@ Path 2:
 
 
 ### Dark Lord
+#### Description and Other Details
+
+Uses Dark Maic to destroy enemies
+
 #### Upgrades
 Path 1:
 
-1. 
-2. 
-3. 
+1. Darker Magic
+2. The Darkhold
+3. The Call of Cthulhu
 
 Path 2:
 
-1. 
-2. 
+1. Ancient Spells
+2. Psychic Link
 3. 
 

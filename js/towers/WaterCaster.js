@@ -7,7 +7,7 @@ export default class WaterCaster extends Tower {
     cost = 150
     description = 'Uses nearby water to destroy enemies!'
     imageSrc = 'images/watercaster/main.png'
-    name = 'WaterCaster'
+    name = 'Water Caster'
     upgrades = [
         [
             new Upgrade(

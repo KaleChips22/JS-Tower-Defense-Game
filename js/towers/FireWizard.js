@@ -7,7 +7,7 @@ export default class FireWizard extends Tower {
     cost = 150
     description = 'Creates fire that burn enemies to ashes!'
     imageSrc = 'images/firewizard/main.png'
-    name = 'Firewizard'
+    name = 'Fire Wizard'
     upgrades = [
         [
             new Upgrade(
