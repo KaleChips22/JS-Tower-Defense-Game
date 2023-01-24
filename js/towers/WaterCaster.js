@@ -3,7 +3,7 @@ import Upgrade from './Upgrade.js'
 
 const upgradeImgSrc = a => `./images/watercaster/upgrades/${a}.png`
 
-export default class WaterCaster extends Tower {
+export default class extends Tower {
     cost = 150
     description = 'Uses nearby water to destroy enemies!'
     imageSrc = './images/watercaster/main.png'

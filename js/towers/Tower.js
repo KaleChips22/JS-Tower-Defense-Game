@@ -7,6 +7,7 @@ export default class Tower {
         this.projectiles = null
         this.placeOn = ['LAND']
         this.rangeEffect = null
+        this.speed = 2
     }
 
     /**

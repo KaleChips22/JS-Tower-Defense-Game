@@ -5,7 +5,7 @@ export default class Upgrade {
      * @param {String} description Description of the upgrade
      * @param {Number} price Cost of the upgrade
      * @param {Function} modifierFunc Function to call on tower when upgrade is bought
-     * @param {String} imageSrc
+     * @param {String} imageSrc source of the image to use for upgrade
      */
     constructor(name, description, price, imageSrc, modifierFunc) {
         this.name = name
