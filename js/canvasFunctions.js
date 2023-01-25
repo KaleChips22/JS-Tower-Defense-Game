@@ -57,7 +57,7 @@ const text = (text, x, y) => {
 const width = canvas.width
 const height = canvas.height
 
-export default {
+export {
     fill,
     noFill,
     stroke,

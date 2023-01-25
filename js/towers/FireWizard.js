@@ -1,5 +1,5 @@
-import Tower from './Tower'
-import Upgrade from './Upgrade'
+import Tower from './Tower.js'
+import Upgrade from './Upgrade.js'
 
 const upgradeImgSrc = a => `./images/firewizard/upgrades/${a}.png`
 
