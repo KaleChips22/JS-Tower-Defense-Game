@@ -1,9 +1,9 @@
-import Tower from "./Tower";
-import Upgrade from "./Upgrade";
+import Tower from './Tower'
+import Upgrade from './Upgrade'
 
 const upgradeImgSrc = a => `./images/firewizard/upgrades/${a}.png`
 
-export default class FireWizard extends Tower {
+class FireWizard extends Tower {
     cost = 150
     description = 'Creates fire that burn enemies to ashes!'
     imageSrc = 'images/firewizard/main.png'
@@ -16,8 +16,30 @@ export default class FireWizard extends Tower {
                 0,
                 upgradeImgSrc('1-1'),
                 tower => tower.projectiles[0].dammage += 1
+            ),
+            new Upgrade(
+                'Overheat',
+                'Attacks are so hot, enemies catch fire on impact!',
+                0,
+                upgradeImgSrc('1-2'),
+                tower => tower.projectiles[0].impactEffect = enemy => enemy.effects.push('burning')
+            ),
+            new Upgrade(
+                'Hellfire',
+                'Ultimate burn',
+                0,
+                upgradeImgSrc('1-3'),
+                tower => {
+                    tower.range++
+                    tower.speed++
+                    let p = tower.projectiles[0]
+                    p.size *= 2
+                    
+                }
             )
         ],
         []
     ]
 }
+
+export default FireWizard
