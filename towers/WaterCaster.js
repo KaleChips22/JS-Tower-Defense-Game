@@ -6,7 +6,11 @@ const upgradeImgSrc = a => `./images/watercaster/upgrades/${a}.png`
 class WaterCaster extends Tower {
     cost = 150
     description = 'Uses nearby water to destroy enemies!'
+<<<<<<< HEAD:towers/WaterCaster.js
     imageSrc = './images/watercaster/main.png'
+=======
+    imageSrc = 'images/watercaster/main.png'
+>>>>>>> 3a8e38ecbc9ac4d444ec580a2906676adfc1592b:js/towers/WaterCaster.js
     name = 'Water Caster'
     upgrades = [
         [
