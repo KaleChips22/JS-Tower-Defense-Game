@@ -100,24 +100,39 @@ Path 1:
 
 Path 2:
 
-1. 
-2. 
-3. 
+1. Twister
+    * Adds twister attack
+    * $xx
+2. Tornado
+    * +attack; +attack size
+    * $xx
+3. Blown Away
+    * ++range; +atk; +speed
 
 
 ### Earth Sage
 #### Upgrades
 Path 1:
 
-1. 
-2. 
-3. 
+1. Hardening
+    * +atk; +range; becomes rock projectile
+    * $xx
+2. Double Trouble
+    * x2 Projectiles
+    * $xx
+3. Earth-shattering Rage
+    * +ground spike attack; +atk; +range
 
 Path 2:
 
-1. 
-2. 
-3. 
+1. Grassy Expansion
+    * +range; enemies in range slowed
+    * $xx
+2. Healing Flowers
+    * +1 hp for every enemy killed in range
+    * $xx
+3. Mother Nature
+    * "Tree" tower spawns in range: 10dmg/3s; +atk; +range; +speed
 
 
 ### Dark Lord
@@ -128,13 +143,20 @@ Uses Dark Maic to destroy enemies
 #### Upgrades
 Path 1:
 
-1. Darker Magic
-2. The Darkhold
-3. The Call of Cthulhu
+1. Cheap Trick
+    * ++atk
+    * $xx
+2. Vanishing Act
+    * +Portal Attack: insta-kill random onscreen enemy; +range
+3. Grand Finale
+    * +spd; +atk; +range; portal attack x2;
 
 Path 2:
 
-1. Ancient Spells
-2. Psychic Link
-3. 
+1. Third Eye
+    * ++range
+2. Future Sight
+    * +future sight attack: kill next 2 off-screen enemies every 10 seconds
+3. The All-seing
+    * future attack speed+; +range; +atk
 
