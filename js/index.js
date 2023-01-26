@@ -2,12 +2,14 @@ import {
     noFill, fill, noStroke, stroke, rect, image, width, height, font, text
 } from './canvasFunctions.js'
 
-import FireWizard from './towers/FireWizard.js'
 import WaterCaster from './towers/WaterCaster.js'
+import FireWizard from './towers/FireWizard.js'
+import WindMage from './towers/WindMage.js'
 
 let towers = [
     WaterCaster,
-    FireWizard
+    FireWizard,
+    WindMage
 ]
 
 towers.forEach((t, i) => {

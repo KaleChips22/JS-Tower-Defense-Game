@@ -5,6 +5,7 @@ class Projectile {
         this.type = null
         this.count = 1
         this.speed = 0
+        this.scale = 1
     }
 
     check(enemy) {

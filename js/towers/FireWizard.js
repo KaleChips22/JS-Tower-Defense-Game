@@ -38,7 +38,42 @@ class FireWizard extends Tower {
                 }
             )
         ],
-        []
+        [
+            new Upgrade(
+                'Exploding Flames',
+                'Flames explode on impact',
+                0,
+                upgradeImgSrc('2-1'),
+                tower => tower.projectiles[0].impactEffect = enemy => {
+                    enemy.takeDammage(2)
+                }
+            ),
+            new Upgrade(
+                'Super Flames',
+                'Flames inside of Flames!',
+                0,
+                upgradeImgSrc('2-2'),
+                tower => tower.projectiles[0].impactEffect = enemy => {
+                    for (let i = 0; i < 2; i++) {
+                        let fire = new Fireball(enemy.pos.x, enemy.pos.y, Math.floor(Math.random() * Math.PI * 2))
+                    }
+                }
+            ),
+            new Upgrade(
+                'Solar Flare',
+                'All shall burn to ashes',
+                0,
+                upgradeImgSrc('2-3'),
+                tower => tower.projectiles[0].impactEffect = enemy => {
+                    for (let i = 0; i < 2; i++) {
+                        let fire = new Fireball(enemy.pos.x, enemy.pos.y, Math.floor(Math.random() * Math.PI * 2))
+                    }
+                    enemy.radiusEffect = nearby => {
+                        nearby.takeDammage(3)
+                    }
+                }
+            )
+        ]
     ]
 }
 
