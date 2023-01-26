@@ -70,17 +70,33 @@ Path 2:
 1. Exploding flames
     * Now shoots freballs that explode on impact
     * $xx
-2. 
-3. 
+2. Super Flames
+    * Releases 2 basic fire attacks on hit
+    * $xx
+3. Solar Flare
+    * Hit enemies dammage nearby enemies
+    * $xx
 
 
 ### Wind Mage
+#### Description
+
+Uses magic wind attacks to destoy enemies
+
+Cost: **$150**
+
 #### Upgrades
 Path 1:
 
-1. 
-2. 
-3. 
+1. Breeze
+    * Blows back enemies; +atk
+    * $xx
+2. Gust
+	* +blowback power; +range
+    * $xx
+3. The Holy Gale
+	* +blowback power; +attack; +range; +blowback interval
+    * $xx
 
 Path 2:
 
